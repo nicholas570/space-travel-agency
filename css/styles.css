@@ -1,0 +1,17 @@
+.section {
+  height: 700px;
+}
+
+#banner {
+  background-image: url(../images/banner/rocket-3122690_1280.png);
+}
+
+#circuits {
+  background: no-repeat url(../images/circuit/cat-3695213_1920.jpg);
+  background-size: cover;
+}
+
+#contact {
+  background: no-repeat url(../images/form/space-3262811_1280.jpg);
+  background-size: cover;
+}
