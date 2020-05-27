@@ -5416,9 +5416,9 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid none;
   border-radius: 0.3rem;
   outline: 0;
 }
@@ -5430,7 +5430,7 @@ a.close.disabled {
   z-index: 1040;
   width: 100vw;
   height: 100vh;
-  background-color: #000;
+  background-color: none;
 }
 .modal-backdrop.fade {
   opacity: 0;

@@ -1,9 +1,26 @@
+/*------- Layout -------*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 .section {
   height: 700px;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
 
 #banner {
-  background-image: url(../images/banner/rocket-3122690_1280.png);
+  background: url(../images/banner/desktop.png) fixed;
+  background-size: cover;
 }
 
 #circuits {
@@ -14,4 +31,132 @@
 #contact {
   background: no-repeat url(../images/form/space-3262811_1280.jpg);
   background-size: cover;
+}
+
+/*------- Clouds -------*/
+
+.cloud {
+  width: 6vw;
+  height: 6vw;
+  position: absolute;
+}
+
+.cloud:hover {
+  transform: scale(1.3);
+  transition: all 500ms;
+}
+
+#logo {
+  cursor: pointer;
+  left: 35vw;
+  top: 25vh;
+}
+
+#logoDestinations {
+  left: 60vw;
+  top: 50vh;
+}
+
+#logoCircuits {
+  left: 18vw;
+  top: 10vh;
+}
+
+#logoAgences {
+  left: 19vw;
+  top: 50vh;
+}
+
+#logoContact {
+  left: 80vw;
+  top: 10vh;
+}
+
+/*------- Mobile -------*/
+
+@media (max-width: 576px) {
+  #banner {
+    background: url(../images/banner/mobile.png) no-repeat fixed;
+  }
+
+  .cloud {
+    height: 10vw;
+    width: 10vw;
+  }
+
+  #logo {
+    cursor: pointer;
+    left: 15vw;
+    top: 20vh;
+  }
+
+  #logoDestinations {
+    left: 85vw;
+    top: 30vh;
+  }
+
+  #logoCircuits {
+    left: 45vw;
+    top: 53vh;
+  }
+
+  #logoAgences {
+    left: 77vw;
+    top: 48vh;
+  }
+
+  #logoContact {
+    left: 45vw;
+    top: 5vh;
+  }
+
+  #contact {
+    background: no-repeat url(../images/form/Webp.net-resizeimage.jpg);
+    background-size: cover;
+  }
+}
+
+/*------- Tablet -------*/
+
+@media (min-width: 768px) {
+  #banner {
+    background: url(../images/banner/mobile.png) no-repeat fixed;
+    background-size: contain;
+  }
+
+  .cloud {
+    height: 8vw;
+    width: 8vw;
+  }
+
+  #logo {
+    cursor: pointer;
+    left: 53vw;
+    top: 24vh;
+  }
+
+  #logoDestinations {
+    left: 80vw;
+    top: 20vh;
+  }
+
+  #logoCircuits {
+    left: 35vw;
+    top: 45vh;
+  }
+
+  #logoAgences {
+    left: 77vw;
+    top: 48vh;
+  }
+
+  #logoContact {
+    left: 15vw;
+    top: 5vh;
+  }
+
+  #contact {
+    background: no-repeat url(../images/form/mobile.jpg);
+    background-size: cover;
+  }
 }
