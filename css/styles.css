@@ -70,7 +70,7 @@ body {
 
 @media (max-width: 576px) {
   #banner {
-    background: url(../images/banner/desktop.png) no-repeat fixed;
+    background: url(../images/banner/mobile.png) no-repeat fixed;
   }
 
   .cloud {
