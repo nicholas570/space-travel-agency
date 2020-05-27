@@ -12,12 +12,6 @@ body {
   width: 100%;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  width: auto\9; /* ie8 */
-}
-
 #banner {
   background: url(../images/banner/desktop.png) fixed;
   background-size: cover;
@@ -76,7 +70,7 @@ img {
 
 @media (max-width: 576px) {
   #banner {
-    background: url(../images/banner/mobile.png) no-repeat fixed;
+    background: url(../images/banner/desktop.png) no-repeat fixed;
   }
 
   .cloud {
@@ -118,7 +112,7 @@ img {
 
 /*------- Tablet -------*/
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   #banner {
     background: url(../images/banner/mobile.png) no-repeat fixed;
     background-size: contain;
