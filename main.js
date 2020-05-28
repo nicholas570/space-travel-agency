@@ -1,7 +1,7 @@
 const logo = document.getElementById('logo');
 const destinations = document.getElementById('logoDestinations');
 const circuits = document.getElementById('logoCircuits');
-const agences = document.getElementById('logoAgences');
+const stations = document.getElementById('logoStations');
 const contact = document.getElementById('logoContact');
 
 const delay = () => {
@@ -15,7 +15,7 @@ const delay = () => {
     circuits.style.display = 'block';
   }, 1000);
   setTimeout(() => {
-    agences.style.display = 'block';
+    stations.style.display = 'block';
   }, 1300);
   setTimeout(() => {
     contact.style.display = 'block';
@@ -25,5 +25,5 @@ const delay = () => {
 logo.onload = delay();
 destinations.onload = delay();
 circuits.onload = delay();
-logo.onload = delay();
-logo.onload = delay();
+contact.onload = delay();
+stations.onload = delay();

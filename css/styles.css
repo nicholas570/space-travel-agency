@@ -21,6 +21,10 @@ body {
   background: linear-gradient(#85dcb1, #54f0df);
 }
 
+#stations {
+  background: linear-gradient(#85dcb1, #54f0df);
+}
+
 #contact {
   background: no-repeat url(../images/form/space-3262811_1280.jpg);
   background-size: cover;
@@ -50,7 +54,7 @@ body {
   top: 10vh;
 }
 
-#logoAgences {
+#logoStations {
   left: 19vw;
   top: 50vh;
 }
@@ -59,6 +63,8 @@ body {
   left: 80vw;
   top: 10vh;
 }
+
+/*------- Stations -------*/
 
 /*------- Animations -------*/
 
@@ -79,7 +85,7 @@ body {
   display: none;
 }
 
-#logoAgences {
+#logoStations {
   display: none;
 }
 
@@ -120,7 +126,7 @@ body {
     top: 53vh;
   }
 
-  #logoAgences {
+  #logoStations {
     left: 77vw;
     top: 48vh;
   }
@@ -165,7 +171,7 @@ body {
     top: 45vh;
   }
 
-  #logoAgences {
+  #logoStations {
     left: 77vw;
     top: 48vh;
   }
