@@ -2,7 +2,7 @@ const logo = document.getElementById('logo');
 const destinations = document.getElementById('logoDestinations');
 const circuits = document.getElementById('logoCircuits');
 const stations = document.getElementById('logoStations');
-const contact = document.getElementById('logoContact');
+const reservations = document.getElementById('logoContact');
 
 const delay = () => {
   setTimeout(() => {
@@ -18,12 +18,12 @@ const delay = () => {
     stations.style.display = 'block';
   }, 1300);
   setTimeout(() => {
-    contact.style.display = 'block';
+    reservations.style.display = 'block';
   }, 1600);
 };
 
 logo.onload = delay();
 destinations.onload = delay();
 circuits.onload = delay();
-contact.onload = delay();
+reservations.onload = delay();
 stations.onload = delay();

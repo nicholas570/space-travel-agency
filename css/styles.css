@@ -21,9 +21,8 @@ body {
   background: linear-gradient(#85dcb1, #54f0df);
 }
 
-#contact {
-  background: no-repeat url(../images/form/space-3262811_1280.jpg);
-  background-size: cover;
+#reservations {
+  background: linear-gradient(#85dcb1, #54f0df);
 }
 
 /*------- Clouds -------*/
@@ -130,9 +129,8 @@ body {
     top: 5vh;
   }
 
-  #contact {
-    background: no-repeat url(../images/form/Webp.net-resizeimage.jpg);
-    background-size: cover;
+  #reservations {
+    background: linear-gradient(#85dcb1, #54f0df);
   }
 }
 
@@ -175,8 +173,7 @@ body {
     top: 5vh;
   }
 
-  #contact {
-    background: no-repeat url(../images/form/mobile.jpg);
-    background-size: cover;
+  #reservations {
+    background: linear-gradient(#85dcb1, #54f0df);
   }
 }

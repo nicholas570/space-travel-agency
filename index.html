@@ -130,29 +130,6 @@
     <!-- Destinations -->
 
     <div class="container-fluid p-5" id="destinations">
-      <div
-        class="alert alert-danger alert-dismissible fade show mt-3"
-        role="alert"
-      >
-        <h5 class="alert-heading">Attention!</h5>
-        <p>
-          En raison d'une épidémie, tous les vols au départ de la Terre sont
-          annulés<br />
-          <a
-            href="https://news.google.com/covid19/map?hl=fr&gl=FR&ceid=FR:fr"
-            class="alert-link"
-            >Carte Google</a
-          >
-        </p>
-        <button
-          type="button"
-          class="close"
-          data-dismiss="alert"
-          aria-label="Close"
-        >
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
       <div class="row d-flex justify-content-center mb-3">
         <div class="col col-md-6 text-center mt-3">
           <h3>Nos destinations</h3>
@@ -525,11 +502,144 @@
       </div>
     </div>
 
-    <!-- Contact -->
+    <!-- Réservations -->
 
-    <div class="container-fluid section" id="contact">
+    <div class="container-fluid p-5" id="reservations">
+      <div class="row d-flex justify-content-center mb-3">
+        <div class="col-md-6">
+          <div
+            class="alert alert-danger alert-dismissible fade show mt-3"
+            role="alert"
+          >
+            <h5 class="alert-heading">Attention!</h5>
+            <p>
+              En raison d'une épidémie, tous les vols au départ de la Terre sont
+              annulés<br />
+              <a
+                href="https://news.google.com/covid19/map?hl=fr&gl=FR&ceid=FR:fr"
+                target="_blank"
+                class="alert-link"
+                >Carte Google</a
+              >
+            </p>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="alert"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
-        <div class="col"></div>
+        <div class="col-md-4">
+          <div class="booking-cta">
+            <h1>Réservez votre vol aujourd'hui</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate laboriosam numquam at
+            </p>
+          </div>
+        </div>
+        <div class="col-md-7 col-md-offset-1">
+          <div class="booking-form">
+            <form>
+              <div class="form-group">
+                <div class="form-checkbox">
+                  <label for="roundtrip">
+                    <input type="radio" id="roundtrip" name="flight-type" />
+                    <span></span>Croisière
+                  </label>
+                  <label for="one-way">
+                    <input type="radio" id="one-way" name="flight-type" />
+                    <span></span>Aller simple
+                  </label>
+                  <label for="multi-city">
+                    <input type="radio" id="multi-city" name="flight-type" />
+                    <span></span>Aller retour
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <span class="form-label">Départ</span>
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="Station"
+                    />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <span class="form-label">Arrivée</span>
+                    <input
+                      class="form-control"
+                      type="text"
+                      placeholder="Station"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <span class="form-label">Date de départ</span>
+                    <input class="form-control" type="date" required />
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <span class="form-label">Date de retour</span>
+                    <input class="form-control" type="date" required />
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <span class="form-label">Adultes (18+)</span>
+                    <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                    </select>
+                    <span class="select-arrow"></span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <span class="form-label">Enfants (0-17)</span>
+                    <select class="form-control">
+                      <option>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                    <span class="select-arrow"></span>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-group">
+                    <span class="form-label">Classe</span>
+                    <select class="form-control">
+                      <option>Economie</option>
+                      <option>Business</option>
+                      <option>Première</option>
+                    </select>
+                    <span class="select-arrow"></span>
+                  </div>
+                </div>
+              </div>
+              <div class="form-btn">
+                <button class="btn btn-info">Disponibilités</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
 
