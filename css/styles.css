@@ -21,10 +21,6 @@ body {
   background: linear-gradient(#85dcb1, #54f0df);
 }
 
-#stations {
-  background: linear-gradient(#85dcb1, #54f0df);
-}
-
 #contact {
   background: no-repeat url(../images/form/space-3262811_1280.jpg);
   background-size: cover;
@@ -63,8 +59,6 @@ body {
   left: 80vw;
   top: 10vh;
 }
-
-/*------- Stations -------*/
 
 /*------- Animations -------*/
 

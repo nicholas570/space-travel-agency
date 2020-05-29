@@ -84,8 +84,16 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <h5 class="modal-title" id="exampleModalLongTitle">
-                    Eridan, voyager autrement
+                    Eridan 2056, voyager autrement
                   </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
                 <div class="modal-body">
                   <h5>Création</h5>
@@ -99,31 +107,7 @@
                     voluptatem hic, dicta saepe velit dolore asperiores soluta
                     placeat quod. Magni quod perferendis labore nesciunt.
                   </p>
-                  <h5>Objectifs</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eveniet autem veniam dignissimos! Doloremque, ipsa
-                    voluptates, a praesentium architecto soluta sunt quam non
-                    voluptatem maiores, exercitationem repellat adipisci
-                    eveniet! Quam, beatae? Lorem ipsum dolor, sit amet
-                    consectetur adipisicing elit. Quaerat harum possimus cumque
-                    illo, inventore non voluptatem hic, dicta saepe velit dolore
-                    asperiores soluta placeat quod. Magni quod perferendis
-                    labore nesciunt.
-                  </p>
-                  <h5>Pour qui?</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eveniet autem veniam dignissimos! Doloremque, ipsa
-                    voluptates, a praesentium architecto soluta sunt quam non
-                    voluptatem maiores, exercitationem repellat adipisci
-                    eveniet! Quam, beatae? Lorem ipsum dolor, sit amet
-                    consectetur adipisicing elit. Quaerat harum possimus cumque
-                    illo, inventore non voluptatem hic, dicta saepe velit dolore
-                    asperiores soluta placeat quod. Magni quod perferendis
-                    labore nesciunt.
-                  </p>
-                  <h5>Futur</h5>
+                  <h5>Histoire</h5>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Eveniet autem veniam dignissimos! Doloremque, ipsa
@@ -146,6 +130,29 @@
     <!-- Destinations -->
 
     <div class="container-fluid p-5" id="destinations">
+      <div
+        class="alert alert-danger alert-dismissible fade show mt-3"
+        role="alert"
+      >
+        <h5 class="alert-heading">Attention!</h5>
+        <p>
+          En raison d'une épidémie, tous les vols au départ de la Terre sont
+          annulés<br />
+          <a
+            href="https://news.google.com/covid19/map?hl=fr&gl=FR&ceid=FR:fr"
+            class="alert-link"
+            >Carte Google</a
+          >
+        </p>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
       <div class="row d-flex justify-content-center mb-3">
         <div class="col col-md-6 text-center mt-3">
           <h3>Nos destinations</h3>
@@ -350,7 +357,7 @@
 
     <!-- Stations -->
 
-    <div class="container-fluid p-5" id="stations">
+    <div class="container-fluid d-none d-md-block p-5" id="stations">
       <div class="row d-flex justify-content-center mb-3">
         <div class="col col-md-6 text-center mt-3">
           <h3>Nos stations</h3>
@@ -365,8 +372,7 @@
       <div class="row mb-3 mt-3">
         <div class="col">
           <input
-            class="form-control"
-            id="searchInput"
+            class="form-control searchInput"
             type="text"
             placeholder="Search.."
           />
@@ -374,7 +380,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <ul class="list-group list-group-horizontal-md">
+          <ul class="list-group list-group-horizontal">
             <li class="list-group-item col-3 stationsList border-0">
               Arrakeen
             </li>
@@ -390,7 +396,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <ul class="list-group list-group-horizontal-md">
+          <ul class="list-group list-group-horizontal">
             <li class="list-group-item col-3 stationsList border-0">Palobri</li>
             <li class="list-group-item col-3 stationsList border-0">Gotham</li>
             <li class="list-group-item col-3 stationsList border-0">
@@ -404,7 +410,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <ul class="list-group list-group-horizontal-md">
+          <ul class="list-group list-group-horizontal">
             <li class="list-group-item col-3 stationsList border-0">
               Calathé
             </li>
@@ -422,7 +428,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <ul class="list-group list-group-horizontal-md">
+          <ul class="list-group list-group-horizontal">
             <li class="list-group-item col-3 stationsList border-0">
               Helix-Pro
             </li>
@@ -433,6 +439,85 @@
               Metropolis
             </li>
             <li class="list-group-item col-3 stationsList border-0">
+              THX 11 38
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stations Mobile -->
+
+    <div class="container-fluid d-block d-md-none p-5" id="stations">
+      <div class="row d-flex justify-content-center mb-3">
+        <div class="col text-center mt-3">
+          <h3>Nos stations</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            praesentium repudiandae aut molestiae voluptate accusantium quasi
+            dolorem. Numquam nostrum, corporis, laborum qui expedita vero
+            dignissimos facilis optio a suscipit dolorum?
+          </p>
+        </div>
+      </div>
+      <div class="row mb-3 mt-3">
+        <div class="col">
+          <input
+            class="form-control searchInput"
+            type="text"
+            placeholder="Search.."
+          />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <ul class="list-group">
+            <li class="list-group-item stationsList border-0 text-center">
+              Arrakeen
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Prométhée
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Kandor
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Odio-45R
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Palobri
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Gotham
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Marseille
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Terminus ville
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Calathé
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Andro.24
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Lunar-23
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Exul city
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Helix-Pro
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Kepler-16b
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
+              Metropolis
+            </li>
+            <li class="list-group-item stationsList border-0 text-center">
               THX 11 38
             </li>
           </ul>
@@ -451,34 +536,77 @@
     <!-- Footer -->
 
     <div class="bg-success">
-      <div class="container">
-        <div class="row pt-4 pb-3">
-          <div class="col">
+      <div class="container d-block d-md-none">
+        <div class="row">
+          <div class="col-6 offset-3 p-3 d-flex justify-content-around">
+            <img src="https://img.icons8.com/color/48/000000/facebook.png" />
+            <img
+              src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
+            />
+            <img src="https://img.icons8.com/fluent/48/000000/twitter.png" />
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col d-flex justify-content-center align-items-center p-3">
             <img
               src="./images/logo/rocket-2887845_640.png"
               alt="logo"
-              width="60"
-              height="60"
+              width="90"
+              height="90"
               class="rounded-circle"
             />
           </div>
-          <div class="col">
-            <ul class="list-inline text-center">
-              <li class="list-inline-item"><a href="#">fb</a></li>
-              <li class="list-inline-item">&middot;</li>
-              <li class="list-inline-item"><a href="#">twitter</a></li>
-              <li class="list-inline-item">&middot;</li>
-              <li class="list-inline-item">
-                <a href="#">insta</a>
-              </li>
-            </ul>
+          <div class="col p-3">
+            <address>
+              Eridan Foundation<br />
+              1981 Landings Drive<br />
+              Building K<br />
+              Mare Imbrium View, MA 94043-0801<br />
+              Kepler-16b<br />
+              <a href="mailto:jim@rock.com">jim@rock.com</a><br />
+            </address>
           </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col p-3 text-center">
+            <p>Made by Nicolas Mercier, CEO of Eridan 2056</p>
+          </div>
+        </div>
+      </div>
+      <div class="container d-none d-md-block p-3">
+        <div class="row">
+          <div class="col d-flex justify-content-center align-items-center">
+            <img
+              src="./images/logo/rocket-2887845_640.png"
+              alt="logo"
+              width="90"
+              height="90"
+              class="rounded-circle"
+            />
+          </div>
+          <div class="col d-flex justify-content-around align-items-center">
+            <img src="https://img.icons8.com/color/48/000000/facebook.png" />
+            <img
+              src="https://img.icons8.com/fluent/48/000000/instagram-new.png"
+            />
+            <img src="https://img.icons8.com/fluent/48/000000/twitter.png" />
+          </div>
+          <div class="col d-flex justify-content-center align-items-center">
+            <address>
+              Eridan Foundation<br />
+              1981 Landings Drive<br />
+              Building K<br />
+              Mare Imbrium View, MA 94043-0801<br />
+              Kepler-16b<br />
+              <a href="mailto:jim@rock.com">jim@rock.com</a><br />
+            </address>
+          </div>
+        </div>
+        <div class="row text-center">
           <div class="col">
-            <ul class="list-group text-center">
-              <p>adresse</p>
-              <p>tel</p>
-              <p>mail</p>
-            </ul>
+            <p>Made by Nicolas Mercier, CEO of Eridan 2056</p>
           </div>
         </div>
       </div>
@@ -501,7 +629,7 @@
     ></script>
     <script>
       $(document).ready(function () {
-        $('#searchInput').on('keyup', function () {
+        $('.searchInput').on('keyup', function () {
           var value = $(this).val().toLowerCase();
           $('.stationsList').filter(function () {
             $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
