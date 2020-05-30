@@ -22,8 +22,4 @@ const delay = () => {
   }, 1600);
 };
 
-logo.onload = delay();
-destinations.onload = delay();
-circuits.onload = delay();
-reservations.onload = delay();
-stations.onload = delay();
+document.onload = delay();

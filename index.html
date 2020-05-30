@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/styles.css" />
 
-    <title>Eridan</title>
+    <title>Eridan 2056</title>
   </head>
 
   <body>
@@ -33,7 +33,7 @@
           <a href="#destinations">
             <img
               src="./images/destinations/location-4496459_1280.png"
-              alt="circuits"
+              alt="destinations"
               width="80"
               height="80"
               class="rounded-circle cloud"
@@ -53,17 +53,17 @@
           <a href="#stations">
             <img
               src="./images/agence/magnifier-1724298_1280.png"
-              alt="circuits"
+              alt="stations"
               width="80"
               height="80"
               class="rounded-circle cloud"
               id="logoStations"
             />
           </a>
-          <a href="#contact">
+          <a href="#reservations">
             <img
               src="./images/form/ufo-3935873_1280.png"
-              alt="circuits"
+              alt="reservations"
               width="80"
               height="80"
               class="rounded-circle cloud"
@@ -132,6 +132,7 @@
     <div class="container-fluid p-5" id="destinations">
       <div class="row d-flex justify-content-center mb-3">
         <div class="col col-md-6 text-center mt-3">
+          <a href="#ok">ok</a>
           <h3>Nos destinations</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
@@ -235,7 +236,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4 d-flex justify-content-center mt-3">
+        <div class="col-12 col-md-4 d-flex justify-content-center mt-3" id="ok">
           <div class="card shadow border-0" style="width: 24rem;">
             <img
               src="./images/logo/rocket-2887845_640.png"
@@ -334,174 +335,181 @@
 
     <!-- Stations -->
 
-    <div class="container-fluid d-none d-md-block p-5" id="stations">
-      <div class="row d-flex justify-content-center mb-3">
-        <div class="col col-md-6 text-center mt-3">
-          <h3>Nos stations</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            praesentium repudiandae aut molestiae voluptate accusantium quasi
-            dolorem. Numquam nostrum, corporis, laborum qui expedita vero
-            dignissimos facilis optio a suscipit dolorum?
-          </p>
+    <div class="container-fluid" id="stations">
+      <div class="container-fluid d-none d-md-block p-5">
+        <div class="row d-flex justify-content-center mb-3">
+          <div class="col col-md-6 text-center mt-3">
+            <h3>Nos stations</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              praesentium repudiandae aut molestiae voluptate accusantium quasi
+              dolorem. Numquam nostrum, corporis, laborum qui expedita vero
+              dignissimos facilis optio a suscipit dolorum?
+            </p>
+          </div>
+        </div>
+        <div class="row mb-3 mt-3">
+          <div class="col">
+            <input
+              class="form-control searchInput"
+              type="text"
+              placeholder="Search.."
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item col-3 stationsList border-0">
+                Arrakeen
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Prométhée
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Kandor
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Odio-45R
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item col-3 stationsList border-0">
+                Palobri
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Gotham
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Marseille
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Terminus ville
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item col-3 stationsList border-0">
+                Calathé
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Andro.24
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Lunar-23
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Exul city
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <ul class="list-group list-group-horizontal">
+              <li class="list-group-item col-3 stationsList border-0">
+                Helix-Pro
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Kepler-16b
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                Metropolis
+              </li>
+              <li class="list-group-item col-3 stationsList border-0">
+                THX 11 38
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-      <div class="row mb-3 mt-3">
-        <div class="col">
-          <input
-            class="form-control searchInput"
-            type="text"
-            placeholder="Search.."
-          />
+
+      <!-- Stations Mobile -->
+
+      <div class="container-fluid d-block d-md-none p-5">
+        <div class="row d-flex justify-content-center mb-3">
+          <div class="col text-center mt-3">
+            <h3>Nos stations</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              praesentium repudiandae aut molestiae voluptate accusantium quasi
+              dolorem. Numquam nostrum, corporis, laborum qui expedita vero
+              dignissimos facilis optio a suscipit dolorum?
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <ul class="list-group list-group-horizontal">
-            <li class="list-group-item col-3 stationsList border-0">
-              Arrakeen
-            </li>
-            <li class="list-group-item col-3 stationsList border-0">
-              Prométhée
-            </li>
-            <li class="list-group-item col-3 stationsList border-0">Kandor</li>
-            <li class="list-group-item col-3 stationsList border-0">
-              Odio-45R
-            </li>
-          </ul>
+        <div class="row mb-3 mt-3">
+          <div class="col">
+            <input
+              class="form-control searchInput"
+              type="text"
+              placeholder="Search.."
+            />
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <ul class="list-group list-group-horizontal">
-            <li class="list-group-item col-3 stationsList border-0">Palobri</li>
-            <li class="list-group-item col-3 stationsList border-0">Gotham</li>
-            <li class="list-group-item col-3 stationsList border-0">
-              Marseille
-            </li>
-            <li class="list-group-item col-3 stationsList border-0">
-              Terminus ville
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <ul class="list-group list-group-horizontal">
-            <li class="list-group-item col-3 stationsList border-0">
-              Calathé
-            </li>
-            <li class="list-group-item col-3 stationsList border-0">
-              Andro.24
-            </li>
-            <li class="list-group-item col-3 stationsList border-0">
-              Lunar-23
-            </li>
-            <li class="list-group-item col-3 stationsList border-0">
-              Exul city
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <ul class="list-group list-group-horizontal">
-            <li class="list-group-item col-3 stationsList border-0">
-              Helix-Pro
-            </li>
-            <li class="list-group-item col-3 stationsList border-0">
-              Kepler-16b
-            </li>
-            <li class="list-group-item col-3 stationsList border-0">
-              Metropolis
-            </li>
-            <li class="list-group-item col-3 stationsList border-0">
-              THX 11 38
-            </li>
-          </ul>
+        <div class="row">
+          <div class="col">
+            <ul class="list-group">
+              <li class="list-group-item stationsList border-0 text-center">
+                Arrakeen
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Prométhée
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Kandor
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Odio-45R
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Palobri
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Gotham
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Marseille
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Terminus ville
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Calathé
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Andro.24
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Lunar-23
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Exul city
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Helix-Pro
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Kepler-16b
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                Metropolis
+              </li>
+              <li class="list-group-item stationsList border-0 text-center">
+                THX 11 38
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- Stations Mobile -->
-
-    <div class="container-fluid d-block d-md-none p-5" id="stations">
-      <div class="row d-flex justify-content-center mb-3">
-        <div class="col text-center mt-3">
-          <h3>Nos stations</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            praesentium repudiandae aut molestiae voluptate accusantium quasi
-            dolorem. Numquam nostrum, corporis, laborum qui expedita vero
-            dignissimos facilis optio a suscipit dolorum?
-          </p>
-        </div>
-      </div>
-      <div class="row mb-3 mt-3">
-        <div class="col">
-          <input
-            class="form-control searchInput"
-            type="text"
-            placeholder="Search.."
-          />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <ul class="list-group">
-            <li class="list-group-item stationsList border-0 text-center">
-              Arrakeen
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Prométhée
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Kandor
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Odio-45R
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Palobri
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Gotham
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Marseille
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Terminus ville
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Calathé
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Andro.24
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Lunar-23
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Exul city
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Helix-Pro
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Kepler-16b
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              Metropolis
-            </li>
-            <li class="list-group-item stationsList border-0 text-center">
-              THX 11 38
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
     <!-- Réservations -->
 
     <div class="container-fluid p-5" id="reservations">
